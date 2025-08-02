@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FoodieHub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="padding-top: 70px;">
+  <div class="container">
+    <div class="container-fluid">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand"
+          href="#"><img src="images/logo.png" alt="Shop-Logo" width="60" height="60" class="img-fluid rounded"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+          aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span
+            class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Home" href="#">Home <span class="sr-only">(current)</span></a> </li>
+            <li class="nav-item"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Link"
+                href="gallery.html">Menu<br>
+              </a> </li>
+            <li class="nav-item"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="About Us" href="#">About Us</a></li>
+            <li class="nav-item"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                title="Contact Us" href="#">Contact Us</a></li>
+            <li class="nav-item"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Link"
+                href="#">FeedBack<br>
+              </a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="container text-center"><img src="images/logo.png" alt="" width="500" height="500" class="rounded img-fluid"/></div>
+	
+<h2 class="text-capitalize text-center"><em>Got a Minute? Drop Your Feedback!</em></h2><br><br>
+<!-- form -->
+  <form class="p-4">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">User Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email">
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">User Name</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Enater Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputAddress">Comment</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Enter your commnet!">
+    </div>
+<div class="form-row">
+    <div class="form-group col-md-6">
+        <label for="inputCity">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">Gender</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>Male</option> <option>Female</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="inputZip">Age</label>
+        <input type="text" class="form-control" id="inpuAge">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Check me out
+        </label>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+	
+	<h3>Customer Comments&nbsp;💭💭</h3><br>
+  <div id="accordion1" role="tablist">
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingOne1">
+	      <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Collapsible Group 1 </a> </h5>
+        </div>
+	    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+	      <div class="card-body">Content for Accordion Panel 1</div>
+        </div>
+    </div>
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingTwo1">
+	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Collapsible Group 2 </a> </h5>
+        </div>
+	    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+	      <div class="card-body">Content for Accordion Panel 2</div>
+        </div>
+    </div>
+	  <div class="card">
+	    <div class="card-header" role="tab" id="headingThree1">
+	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Collapsible Group 3 </a> </h5>
+        </div>
+	    <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+	      <div class="card-body">Content for Accordion Panel 3</div>
+        </div>
+    </div>
+</div>
+<footer class="bg-dark text-light pt-5 pb-4">
+  <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+
+        <!-- Column 1 -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">FoodieHub</h5>
+          <p>At FoodieHub, we believe food is more than just a meal — it's an experience. Whether you're craving a
+            cheesy pizza, a spicy delight, or a healthy bite, we've got something for every taste bud. Our goal is
+            simple: to deliver fresh, delicious, and high-quality food right to your doorstep.</p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Quick Links</h5>
+          <p><a href="#" class="text-light" style="text-decoration: none;">Home</a></p>
+          <p><a href="#" class="text-light" style="text-decoration: none;">About</a></p>
+          <p><a href="#" class="text-light" style="text-decoration: none;">Services</a></p>
+          <p><a href="#" class="text-light" style="text-decoration: none;">Contact</a></p>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Follow Us</h5>
+          <a href="#" class="text-light me-3"><i class="fab fa-facebook-f">Facebook</i></a>
+          <a href="#" class="text-light me-3"><i class="fab fa-instagram">Instagram</i></a>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+          <p><i class="fas fa-home mr-3"></i> Colombo, Sri Lanka</p>
+          <p><i class="fas fa-envelope mr-3"></i> foodieHub@gmail.com</p>
+          <p><i class="fas fa-phone mr-3"></i> +94 70 381 4047</p>
+        </div>
+
+      </div>
+
+      <hr class="mb-4">
+
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p>© 2025 All Rights Reserved by <strong class="text-warning">FoodieHub</strong></p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <!-- Additional icons if needed -->
+        </div>
+      </div>
+  </div>
+</footer>
+
+
+  <!-- body code goes here -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap-4.4.1.js"></script>
+</body>
+
+</html>

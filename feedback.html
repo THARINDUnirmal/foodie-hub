@@ -11,6 +11,15 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css">
+	<style>
+		.feature-box{
+			  transition: transform 0.2s;
+		}
+		
+		.feature-box:hover {
+      transform: translateY(-10px);
+    }
+	</style>
 </head>
 
 <body style="padding-top: 70px;">
@@ -24,23 +33,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent1">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                title="Home" href="#">Home <span class="sr-only">(current)</span></a> </li>
+                title="Home" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
             <li class="nav-item"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Link"
                 href="gallery.html">Menu<br>
               </a> </li>
             <li class="nav-item"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                title="About Us" href="#">About Us</a></li>
+                title="About Us" href="aboutus.html">About Us</a></li>
             <li class="nav-item"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                title="Contact Us" href="#">Contact Us</a></li>
+                title="Contact Us" href="contactus.html">Contact Us</a></li>
             <li class="nav-item"> <a class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Link"
-                href="#">FeedBack<br>
+                href="feedback.html">FeedBack<br>
               </a></li>
           </ul>
         </div>
       </nav>
     </div>
   </div>
-  <div class="container text-center"><img src="images/logo.png" alt="" width="500" height="500" class="rounded img-fluid"/></div>
+  <div class="feature-box container text-center"><img src="images/logo.png" alt="" width="500" height="500" class="rounded img-fluid"/></div>
 	
 <h2 class="text-capitalize text-center"><em>Got a Minute? Drop Your Feedback!</em></h2><br><br>
 <!-- form -->
@@ -87,33 +96,63 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 	
-	<h3>Customer Comments&nbsp;💭💭</h3><br>
-  <div id="accordion1" role="tablist">
-	  <div class="card">
-	    <div class="card-header" role="tab" id="headingOne1">
-	      <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Collapsible Group 1 </a> </h5>
-        </div>
-	    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
-	      <div class="card-body">Content for Accordion Panel 1</div>
-        </div>
-    </div>
-	  <div class="card">
-	    <div class="card-header" role="tab" id="headingTwo1">
-	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1"> Collapsible Group 2 </a> </h5>
-        </div>
-	    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
-	      <div class="card-body">Content for Accordion Panel 2</div>
-        </div>
-    </div>
-	  <div class="card">
-	    <div class="card-header" role="tab" id="headingThree1">
-	      <h5 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1"> Collapsible Group 3 </a> </h5>
-        </div>
-	    <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
-	      <div class="card-body">Content for Accordion Panel 3</div>
-        </div>
-    </div>
-</div>
+	<h3 class="p-4" >Customer Comments&nbsp;💭💭</h3><br>
+	
+<div class="card">
+  <div class="card-body">
+    <h6 class="card-title">Name: Daniel Blake<br>
+Email: dan.blake2025@example.com</h6>
+    <p class="card-text">💬 Comment:<br>
+
+“The best part about Foodie Hub is that they truly care about their customers. You can taste the love in every dish. I’ve ordered from them three times now, and each time the food has been consistent, fresh, and flavorful. The delivery guys are always polite and on time. This is what food delivery should be like.”</p>
+  </div>
+</div><div class="card">
+  <div class="card-body">
+    <h6 class="card-title">Name: Ayesha Rahman<br>
+Email: ayesha.rahman19@example.com</h6>
+    <p class="card-text">💬 Comment:<br>
+
+“Foodie Hub helped save my birthday party! I placed a large order at the last minute, and they managed to get everything to us right on time. Not only that, but the food was amazing — hot, tasty, and beautifully packaged. My guests kept asking where I ordered from. Thank you so much!”</p>
+  </div>
+</div><div class="card">
+  <div class="card-body">
+    <h6 class="card-title">Name: Kevin Zhou<br>
+Email: kevin.zhou42@example.com</h6>
+    <p class="card-text">💬 Comment:<br>
+
+“I've tried many food delivery apps, but none have matched the quality and consistency of Foodie Hub. Their meals always arrive fresh, the portions are generous, and the taste is top-notch. I especially love their spicy chicken wings and creamy pasta. Great food, fast service, and always reliable.”</p>
+  </div>
+</div><div class="card">
+  <div class="card-body">
+    <h6 class="card-title">Name: Jessica Morgan<br>
+Email: jessica.morgan23@example.com</h6>
+    <p class="card-text">💬 Comment:<br>
+
+“I recently discovered Foodie Hub, and it has completely changed the way I order food online. The website is user-friendly, and the delivery was faster than I expected. The burger I ordered was juicy and flavorful, and the fries were crispy and hot. I’m impressed with the quality and care that goes into every meal. Definitely my new go-to for comfort food!”</p>
+  </div>
+</div><div class="card">
+  <div class="card-body">
+    <h6 class="card-title">Name: Liam Carter<br>
+Email: liam.carter88@example.com</h6>
+    <p class="card-text">💬 Comment:<br>
+
+“Ordering from Foodie Hub was a fantastic experience. I loved how fresh the ingredients tasted, especially in the veggie pizza I had last night. The crust was perfect, and the sauce had just the right amount of spice. Delivery was on time, and the packaging kept everything hot. Keep up the great work!”
+
+</p>
+  </div>
+</div><div class="card">
+  <div class="card-body">
+    <h6 class="card-title">Name: Priya Fernando<br>
+Email: priya.fernando77@example.com</h6>
+    <p class="card-text">💬 Comment:<br>
+
+“Foodie Hub has the best customer service I’ve experienced in a long time. I had a question about my order and the support team was kind and quick to respond. The food arrived warm and tasted absolutely delicious — especially the grilled chicken wrap! Highly recommend this service to anyone looking for quality food and excellent service.”</p>
+  </div>
+</div><br><br>
+	
+	
+	
+  
 <footer class="bg-dark text-light pt-5 pb-4">
   <div class="container text-center text-md-left">
       <div class="row text-center text-md-left">

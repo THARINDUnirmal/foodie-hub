@@ -11,13 +11,60 @@
   <!-- Bootstrap -->
   <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet" type="text/css">
+	
+	  <style>
+    body {
+      background-color: #fff4e6;
+    }
+    .feature-box {
+      background-color: white;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .feature-box:hover {
+      transform: translateY(-10px);
+    }
+    .feature-icon {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .title {
+      font-weight: 700;
+    }
+		  
+	.team-member {
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .team-member img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+    .team-name {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .team-role {
+      color: #6c757d;
+      font-size: 0.95rem;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 <body style="padding-top: 70px;">
   <div class="container">
     <div class="container-fluid">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand"
-          href="#"><img src="images/logo.png" alt="Shop-Logo" width="60" height="60" class="img-fluid rounded"/></a>
+          href="#"><img src="images/logo.png" alt="Shop-Logo" width="60" height="60" class="rounded img-fluid"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
           aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span
             class="navbar-toggler-icon"></span> </button>
@@ -40,43 +87,112 @@
         </div>
       </nav>
     </div>
-  </div>
-	
-	<div class="container my-4">
-  <div class="card text-white position-relative overflow-hidden" style="height: 400px;">
+  </div><br>
 
-    <!-- YouTube Video Background -->
-    <div class="position-absolute top-0 start-0 w-100 h-100">
-      <iframe
-        class="w-100 h-100"
-        src="https://www.youtube.com/embed/sv3TXMSv6Lw?autoplay=1&mute=1&loop=1&playlist=sv3TXMSv6Lw&controls=0&showinfo=0&modestbranding=1&rel=0"
-        title="YouTube background"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen
-        style="pointer-events: none; object-fit: cover;">
-      </iframe>
+  
+
+  <div class="container my-4">
+  <div class="card mx-auto" style="max-width: 1000px;">
+    <div class="row g-0 align-items-center">
+      <div class="col-md-4">
+        <img src="images/pizza.jpg" class="img-fluid rounded-start" alt="Delicious pizza">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title">🧑‍🍳 About Us – FoodieHub</h3>
+          <p class="card-text">
+            Welcome to FoodieHub — your one-stop destination for mouth-watering meals made with love and fresh ingredients. At FoodieHub, we believe food is more than just fuel — it’s a way to connect, celebrate, and enjoy life.
+          </p>
+          <p class="card-text">
+            🍕 Something for Everyone Whether you're craving a cheesy pizza, a juicy burger, a healthy salad, or a hearty bowl of pasta — FoodieHub has something to satisfy every palate. We’re proud to serve vegetarian, vegan, and gluten-free options too, so no one leaves hungry.
+          </p>
+          <p class="card-text">
+            🚚 Fast, Friendly Service Dine-in, takeaway, or doorstep delivery — we’re here to serve you with a smile. Our team is committed to providing excellent service and a welcoming atmosphere, whether you're joining us for a casual lunch or a special dinner.
+          </p>
+          <p class="card-text">Join us and taste the difference.</p>
+        </div>
+      </div>
     </div>
-
-    <!-- Dark Overlay -->
-    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity: 0.5;"></div>
-
-    <!-- Text Content Overlay -->
-    <div class="card-img-overlay d-flex flex-column justify-content-end position-relative">
-      <h3 class="card-title">🍕 Welcome to FoodieHub</h3>
-      <p class="card-text">Bringing you fresh, delicious food with love — watch the magic happen.</p>
-      <p class="card-text"><small>Updated just now</small></p>
-    </div>
-
   </div>
 </div>
-
-
-
-
-
-
-
+<br>
+	
+	<div class="container text-center py-5">
+  <h2 class="mb-5 fw-bold">What Makes Us Special</h2>
+  <div class="row g-4 justify-content-center">
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="feature-box">
+        <div class="feature-icon text-danger">
+          <i class="fas fa-pizza-slice"></i>
+        </div>
+        <h5 class="title">Fresh Ingredients 🍕</h5>
+        <p class="text-muted">We use only the freshest ingredients in our dishes.</p>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="feature-box">
+        <div class="feature-icon text-primary">
+          <i class="fas fa-rocket"></i>
+        </div>
+        <h5 class="title">Fast Delivery 🚀</h5>
+        <p class="text-muted">Get your favorite meals delivered to you quickly.</p>
+      </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <div class="feature-box">
+        <div class="feature-icon text-warning">
+          <i class="fas fa-star"></i>
+        </div>
+        <h5 class="title">Loved by Customers ⭐</h5>
+        <p class="text-muted">We’re proud to be a top rated choice for food lovers.</p>
+      </div>
+    </div>
+  </div>
+</div><br>
+	
+	<div class="container py-5">
+  <h2 class="text-center fw-bold mb-5">Meet the Team</h2>
+  <div class="row g-4 justify-content-center">
+    <!-- Team Member 1 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="team-member">
+        <img src="images/user-4.jpg" alt="Sarah Lee" class="img-fluid rounded">
+        <div class="team-name">Sarah Lee</div>
+        <div class="team-role">Head Chef</div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="team-member">
+        <img src="images/user-1.jpg" alt="Tom Ford" class="rounded img-fluid">
+        <div class="team-name">Tom Ford</div>
+        <div class="team-role">Restaurant Manager</div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="team-member">
+        <img src="images/user-2.jpg" alt="Emily Davis" class="rounded img-fluid">
+        <div class="team-name">Emily Davis</div>
+        <div class="team-role">Sous Chef</div>
+      </div>
+    </div>
+    <!-- Team Member 4 -->
+    <div class="col-12 col-sm-6 col-md-3">
+      <div class="team-member">
+        <img src="images/user-3.jpg" alt="James Smith" class="rounded img-fluid">
+        <div class="team-name">James Smith</div>
+        <div class="team-role">Delivery Lead</div>
+      </div>
+    </div>
+  </div>
+</div>
+	
+	
+	
+	
+	<br>
+	
   <footer class="bg-dark text-light pt-5 pb-4">
     <div class="container text-center text-md-left">
       <div class="row text-center text-md-left">
